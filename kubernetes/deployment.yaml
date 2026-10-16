@@ -19,8 +19,8 @@ spec:
     spec:
       containers:
         - name: dashboard
-          image: microservices-monitor:local
-          imagePullPolicy: Never
+          image: ghcr.io/brenisdone/microservices-monitor:latest
+          imagePullPolicy: Always
 
           ports:
             - containerPort: 8501
